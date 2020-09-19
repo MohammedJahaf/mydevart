@@ -9,4 +9,5 @@ $(document).ready(function () {
     $(document).on('click', function () {
         $('.custom-collapse').removeClass('show');
     });
+    new WOW().init();
 });
